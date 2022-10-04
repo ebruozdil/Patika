@@ -26,6 +26,7 @@ public class DaireninAlaniniVeCevresiniHesaplayanProgram {
     
 }
 
+
 /*Dairenin Alanını ve Çevresini Hesaplayan Program
 Java ile yarı çapını kullanıcıdan aldığınız dairenin alanını ve çevresini hesaplayan programı yazın.
 
@@ -39,4 +40,5 @@ Yarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı b
 𝜋 sayısını = 3.14 alınız.
 
 Formül : (𝜋 * (r*r) * 𝛼) / 360
+[Patika.dev](www.patika.dev)
  */
