@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class UcgeninAlanınıBulanProgram {
     public static void main(String[] args) {
-        double a,b,c,u,alan,cevre;
+        double a,b,c,u,alan;
 
         Scanner input = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class UcgeninAlanınıBulanProgram {
         c = input.nextDouble();
     
         u=(a+b+c)/2;
-        cevre = 2*(u);
+        //cevre = 2*(u);
         alan=Math.sqrt(u*(u-a)*(u-b)*(u-c));
 
         System.out.println("Üçgenin Alanı = "+alan);
