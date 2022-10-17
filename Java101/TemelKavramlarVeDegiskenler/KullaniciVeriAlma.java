@@ -1,3 +1,4 @@
+package TemelKavramlarVeDegiskenler;
 import java.util.Scanner;
 
 public class KullaniciVeriAlma {public static void main(String[] args) {

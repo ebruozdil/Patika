@@ -1,3 +1,4 @@
+package TemelKavramlarVeDegiskenler;
 import java.util.Scanner;
 public class UcgeninAlanınıBulanProgram {
     public static void main(String[] args) {

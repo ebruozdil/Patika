@@ -1,3 +1,4 @@
+package TemelKavramlarVeDegiskenler;
 import java.util.Scanner;
 /*
  KDV Tutarı Hesaplayan Program
