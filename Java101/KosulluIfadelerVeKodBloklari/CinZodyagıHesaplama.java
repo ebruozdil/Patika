@@ -1,5 +1,6 @@
 package KosulluIfadelerVeKodBloklari;
 import java.util.Scanner;
+
 public class CinZodyagıHesaplama {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
@@ -8,6 +9,7 @@ public class CinZodyagıHesaplama {
         int year= input.nextInt();
 
         int kalan=(year%12);
+        
         if(kalan==0){
             System.out.println("Çin Zodyağı Burcunuz : Maymun ");
         }else if(kalan==1){
@@ -32,7 +34,6 @@ public class CinZodyagıHesaplama {
             System.out.println("Çin Zodyağı Burcunuz : At ");
         }else if(kalan==11){
             System.out.println("Çin Zodyağı Burcunuz : Koyun ");
-        }
-        
+        }   
     }
 }
