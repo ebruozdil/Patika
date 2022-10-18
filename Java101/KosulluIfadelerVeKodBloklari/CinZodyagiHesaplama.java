@@ -1,11 +1,7 @@
 package KosulluIfadelerVeKodBloklari;
 import java.util.Scanner;
-<<<<<<< HEAD:Java101/KosulluIfadelerVeKodBloklari/CinZodyagiHesaplama.java
-public class CinZodyagiHesaplama {
-=======
 
-public class CinZodyagıHesaplama {
->>>>>>> 5571ea73cf28164a3cbfbd6204ee3a3eb9122053:Java101/KosulluIfadelerVeKodBloklari/CinZodyagıHesaplama.java
+public class CinZodyagiHesaplama {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
 
