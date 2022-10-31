@@ -1,6 +1,6 @@
 package Metotlar;
 import java.util.Scanner;
-public class PolindromSayiBulanProgram {
+public class PalindromSayiBulanProgram {
 
     static boolean isPalindrom(int number){
         int temp= number, reverseNumber=0 , lastNumber;
@@ -10,10 +10,10 @@ public class PolindromSayiBulanProgram {
             temp/=10;
         } 
         if(number==reverseNumber){
-            System.out.println(number+" polindrom sayıdır");
+            System.out.println(number+" palindrom sayıdır");
             return true;
         }else{
-            System.out.println(number+" polindrom sayı değildir");
+            System.out.println(number+" palindrom sayı değildir");
             return false;}
     }
     public static void main(String[] args) {
