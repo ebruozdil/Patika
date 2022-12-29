@@ -1,53 +1,68 @@
 package Siniflar.OBS;
 
 public class Student {
-    Course c1;
-    Course c2;
-    Course c3;
     String name;
     String studentNo;    
-    String classes;
-    double avarege; //ortalaması
+    int classes;
+    Course matematik ;
+    Course fizik;
+    Course kimya;
+    double avarage; //ortalaması
     boolean isPass; //sınıfı geçti mi geçmedi mi
 
-    Student(String name, String studentNo, String classes, Course c1, Course c2, Course c3){
+    Student(String name, int classes, String studentNo,  Course matematik, Course fizik, Course kimya){
         this.name=name;
-        this.studentNo = studentNo;
         this.classes = classes;
-        this.c1 = c1;
-        this.c2 = c2;
-        this.c3 = c3;
-        this.avarege = 0.0;
+        this.studentNo = studentNo;
+        this.matematik = matematik;
+        this.fizik = fizik;
+        this.kimya = kimya;
+        calcAvarage();
         this.isPass = false;
     }
 
-    void addBulkExamNote (int note1, int note2, int note3){
-        if (note1 >=0 && note1 <=100){
-            this.c1.note = note1;}
-        if (note2 >=0 && note2 <=100){
-            this.c2.note = note2;}
-        if (note3 >=0 && note3 <=100){
-            this.c3.note = note3;}
-    }
-
-    void isPass(){
-        System.out.println("=====isPass==========");
-        this.avarege=(this.c1.note+this.c2.note+this.c3.note)/3.0;
-        if (this.avarege > 55 ){
-            System.out.println("Sınıfı başarılı geçtiniz.Hababam sınıfı uyanıyor.");
-            this.isPass=true;
-        }else{
-            System.out.println("Hababm sınıfı sınıfta kaldı.");
-            this.isPass=false;
+    public void addBulkExamNote(int matematik, int fizik, int kimya) {
+        if (matematik >= 0 && matematik <= 100) {
+            this.matematik.note = matematik;
         }
-        printNote();
+        if (fizik >= 0 && fizik <= 100) {
+            this.fizik.note = fizik;
+        }
+        if (kimya >= 0 && kimya <= 100) {
+            this.kimya.note = kimya;
+        }
     }
-    void printNote(){
-        System.out.println("======printNote=========");
-        System.out.println(this.c1.name+" Notu \t:"+this.c1.note);
-        System.out.println(this.c2.name+" Notu \t:"+this.c2.note);
-        System.out.println(this.c3.name+" Notu \t:"+this.c3.note);
-        System.out.println("Ortalamanız : "+this.avarege);
+    
+    public void calcAvarage() {
+        this.avarage = (this.fizik.note + this.kimya.note + this.matematik.note) / 3;
     }
 
+    public boolean isCheckPass() {
+        calcAvarage();
+        return this.avarage > 55;
+    }
+
+
+    public void isPass() {
+        if (this.matematik.note == 0 || this.fizik.note == 0 || this.kimya.note == 0) {
+            System.out.println("Notlar tam olarak girilmemiş");
+        } else {
+            this.isPass = isCheckPass();
+            printNote();
+            System.out.println("Ortalama : " + this.avarage);
+            if (this.isPass) {
+                System.out.println("Sınıfı Geçti. ");
+            } else {
+                System.out.println("Sınıfta Kaldı.");
+            }
+        }
+    }
+
+    public void printNote(){
+        System.out.println("=========================");
+        System.out.println("Öğrenci : " + this.name);
+        System.out.println("Matematik Notu : " + this.matematik.note);
+        System.out.println("Fizik Notu : " + this.fizik.note);
+        System.out.println("Kimya Notu : " + this.kimya.note);
+    }
 }

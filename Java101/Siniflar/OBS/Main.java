@@ -2,25 +2,28 @@ package Siniflar.OBS;
 
 public class Main {
     public static void main(String[] args) {
-        Teacher t1 = new Teacher("Mahmut hoca", "TRH", "05531234567");
-        Teacher t2 = new Teacher("Graham Bell", "FZK", "05564");
-        Teacher t3 = new Teacher("Külyutmaz", "BIO", "101111");
-        
-        Course tarih = new Course("Tarih", "101", "TRH");
-        tarih.addTeacher(t1);
+        Course matematik = new Course("Matematik", "MAT101", "MAT");
+        Course fizik = new Course("Fizik", "FZK101", "FZK");
+        Course kimya = new Course("Kimya", "KMY101", "KMY");
 
-        Course fizik = new Course("Fizik", "102", "FZK");
+        Teacher t1 = new Teacher("Mahmut Hoca", "90550000000", "MAT");
+        Teacher t2 = new Teacher("Fatma Ayşe", "90550000001", "FZK");
+        Teacher t3 = new Teacher("Ali Veli", "90550000002", "KMY");
+
+        matematik.addTeacher(t1);
         fizik.addTeacher(t2);
-
-        Course biyoloji = new Course("Biyoloji", "101", "BIO");
-        biyoloji.addTeacher(t3);
-
-        Student s1 = new Student("İnek Şaban", "123", "4", tarih, fizik, biyoloji);
-        s1.addBulkExamNote(100, 50, 50);
+        kimya.addTeacher(t3);
+        matematik.printTeacherInfo();
+        Student s1 = new Student("İnek Şaban", 4, "14015", matematik, fizik, kimya);
+        s1.addBulkExamNote(50,20,40);
         s1.isPass();
 
-        Student s2 = new Student("Güdük Necmi", "444", "4", tarih, fizik, biyoloji);
-        s2.addBulkExamNote(50, 30, 70);
+        Student s2 = new Student("Güdük Necmi", 4, "25464", matematik, fizik, kimya);
+        s2.addBulkExamNote(100,50,40);
         s2.isPass();
+
+        Student s3 = new Student("Hayta İsmail", 4, "22657", matematik, fizik, kimya);
+        s3.addBulkExamNote(50,20,40);
+        s3.isPass();   
     }
 }

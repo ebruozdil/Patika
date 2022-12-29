@@ -2,30 +2,33 @@ package Siniflar.OBS;
 
 public class Course {
 
-    Teacher teacher;
+    Teacher courseTeacher;
     String name;
     String code;
     String prefix;   
     int note;
 
-    Course(String name, String code, String prefix){
+    public Course(String name, String code, String prefix){
         this.name = name;
         this.code = code;
         this.prefix= prefix ; 
         int note = 0;
     }
 
-    void addTeacher(Teacher teacher){
-        if(teacher.branch.equals(this.prefix)){
-            this.teacher=teacher;
-            printTeacher();
+    public void addTeacher(Teacher teacher){
+        if(this.prefix.equals(teacher.branch)){
+            this.courseTeacher=teacher;
+            System.out.println("İşlem başarılı");
         }else{
-            System.out.println("Öğretmen ve Ders bölümleri uyuşmuyor.");
+            System.out.println(teacher.name + " Akademisyeni bu dersi veremez.");
         }
-        this.teacher=teacher;
     }
 
-    void printTeacher(){
-        this.teacher.print();
+    public void printTeacherInfo(){
+        if (courseTeacher != null) {
+            System.out.println(this.name + " dersinin Akademisyeni : " + courseTeacher.name);
+        } else {
+            System.out.println(this.name + " dersine Akademisyen atanmamıştır.");
+        }
     }
 }
