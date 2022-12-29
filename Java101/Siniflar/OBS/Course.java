@@ -7,12 +7,15 @@ public class Course {
     String code;
     String prefix;   
     int note;
+    int verbalNote;
 
     public Course(String name, String code, String prefix){
         this.name = name;
         this.code = code;
         this.prefix= prefix ; 
         int note = 0;
+        int verbalNote=0;
+
     }
 
     public void addTeacher(Teacher teacher){
@@ -31,4 +34,6 @@ public class Course {
             System.out.println(this.name + " dersine Akademisyen atanmamıştır.");
         }
     }
+
+    
 }

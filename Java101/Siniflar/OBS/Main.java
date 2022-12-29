@@ -16,14 +16,17 @@ public class Main {
         matematik.printTeacherInfo();
         Student s1 = new Student("İnek Şaban", 4, "14015", matematik, fizik, kimya);
         s1.addBulkExamNote(50,20,40);
+        s1.addBulkVerbalNote(70,55,90);
         s1.isPass();
 
         Student s2 = new Student("Güdük Necmi", 4, "25464", matematik, fizik, kimya);
         s2.addBulkExamNote(100,50,40);
+        s2.addBulkVerbalNote(60,70,90);
         s2.isPass();
 
         Student s3 = new Student("Hayta İsmail", 4, "22657", matematik, fizik, kimya);
         s3.addBulkExamNote(50,20,40);
+        s3.addBulkVerbalNote(40,40,60);
         s3.isPass();   
     }
 }
