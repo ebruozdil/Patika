@@ -19,5 +19,6 @@ public class MukemmelSayiBulanProgram {
         }else{
             System.out.println(n+" Mükemmel sayı değildir.");
         }
+        input.close();
     }
 }

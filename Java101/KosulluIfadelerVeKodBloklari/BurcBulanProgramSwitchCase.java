@@ -155,5 +155,6 @@ public class BurcBulanProgramSwitchCase {
         }else{
             System.out.println("Burcunuz : "+burc);
         }
+        input.close();
     }
 }

@@ -27,7 +27,7 @@ public class KDVHesaplayanProgram {
         System.out.println("KDV Oranı : "+ kdvOran );
         System.out.println("KDV'li Fiyat : " + kdvliTutar);
         System.out.println("KDV Tutarı : " + kdvTutar);
-
+        input.close();
     }
 }
 

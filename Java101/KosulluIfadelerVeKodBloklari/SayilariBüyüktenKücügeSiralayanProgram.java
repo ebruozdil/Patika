@@ -34,5 +34,6 @@ public class SayilariBüyüktenKücügeSiralayanProgram {
                 System.out.println("c>b>a");
             }
         }
+        input.close();
     }
 }

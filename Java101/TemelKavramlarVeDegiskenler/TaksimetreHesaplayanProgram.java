@@ -15,6 +15,8 @@ public class TaksimetreHesaplayanProgram {
 
         total=(total < 20)? 20:total ;
         System.out.print("Toplam Tutar : "+total);
+
+        input.close();
     }
 }
 /*Taksimetre Programı

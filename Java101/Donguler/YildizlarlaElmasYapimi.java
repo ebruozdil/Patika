@@ -24,5 +24,6 @@ public class YildizlarlaElmasYapimi {
             }
             System.out.println();
         }
+        input.close();
     }
 }

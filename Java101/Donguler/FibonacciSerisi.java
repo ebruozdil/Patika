@@ -13,5 +13,6 @@ public class FibonacciSerisi {
             n1=n2;
             n2=n3;
         }
+        input.close();
     }
 }

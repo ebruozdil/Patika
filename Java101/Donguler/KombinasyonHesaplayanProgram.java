@@ -24,5 +24,7 @@ public class KombinasyonHesaplayanProgram {
         }
 
         System.out.println(" Kombinasyon: C("+n+","+r+") = "+(totaln/(totalr*totalnr)));
+        
+        input.close();
     }
 }

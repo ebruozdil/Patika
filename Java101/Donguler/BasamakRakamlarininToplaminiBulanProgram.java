@@ -17,5 +17,6 @@ Bir sayının basamak sayılarının toplamını hesaplayan program yazınız.
             tempNumber/=10;
         }
         System.out.println(number+" Basamak sayılarının toplamı ="+result);
+        input.close();
     }
 }

@@ -49,5 +49,6 @@ public class ATMProjesi {
                 System.out.println("Hatalı kullanıcı adı veya şifre girdiniz. Lütfen tekrar deneyiniz.");
             }
         }
+        input.close();
     }
 }

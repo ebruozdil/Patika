@@ -29,5 +29,6 @@ public class ManavKasaProgramı {
 
         System.out.println("Toplam Tutar : " +total+" TL" );
 
+        scanner.close();
     }
 }

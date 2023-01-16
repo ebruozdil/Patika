@@ -40,5 +40,6 @@ public class WhileDongusu {
                 System.out.println("Yanlış");
             }
         }
+        input.close();
     }
 }

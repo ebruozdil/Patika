@@ -15,5 +15,7 @@ public class TekSayilarinTaplaminiBulanProgram {
             }
         }while(n>0); 
         System.out.println("Toplam : "+total);
+
+        input.close();
     }
 }

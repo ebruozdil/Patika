@@ -15,5 +15,7 @@ public class YildizlarlaTersUcgenYapimi {
             }
             System.out.println();
         }
+
+        input.close();
     }
 }

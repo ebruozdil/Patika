@@ -15,6 +15,8 @@ public class TekSayiGireneKadarCiftVe4unKatıOlanSyilariToplayanProgram {
             }
         }while(n%2==0);
         System.out.println(total);
+
+        input.close();
     }
 }
 /*Ödev

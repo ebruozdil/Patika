@@ -14,5 +14,6 @@ public class GirilenSayiyaKadarOlanCiftSayilariBulanProgram {
                 System.out.println(i);
             }
         }
+        input.close();
     }
 }

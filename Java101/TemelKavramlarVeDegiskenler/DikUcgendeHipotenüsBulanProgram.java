@@ -14,5 +14,7 @@ public class DikUcgendeHipotenüsBulanProgram {
 
     hipotenüs = Math.sqrt((kenar1*kenar1)+(kenar2*kenar2));
     System.out.println("Hipotenüs = "+hipotenüs);
+
+    input.close();
     }
 }

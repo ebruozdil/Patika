@@ -25,5 +25,7 @@ Java ile kullanıcının girdiği değerler ile üslü sayı hesaplayan program�
             total *= n;
         }
         System.out.println("Cevap : "+n+"^"+k+ "="+total);  
+
+        input.close();
     }
 }

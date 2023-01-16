@@ -35,5 +35,6 @@ public class CinZodyagiHesaplama {
         }else if(kalan==11){
             System.out.println("Çin Zodyağı Burcunuz : Koyun ");
         }   
+        input.close();
     }
 }

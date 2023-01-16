@@ -27,5 +27,6 @@ public class GirdilerdenMaxMinBulma {
         }
         System.out.println("En büyük sayı: "+maxNumber);
         System.out.println("En küçük sayı: "+minNumber);
+        input.close();
     }
 }

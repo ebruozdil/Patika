@@ -40,7 +40,7 @@ public class UcakBiletiFiyatiHesaplama {
 		}
 		
 		System.out.println("Toplam Tutar : " + total + " TL");
-		
+	
+		input.close();
 	}
-
 }

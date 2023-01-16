@@ -31,6 +31,7 @@ public class ArmstrongSayilariBulanProgram {
         }else {
             System.out.println(number + " sayısı bir Armstrong sayısı değildir.");
         }
+        input.close();
     }
 }
  

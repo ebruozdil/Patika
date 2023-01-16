@@ -39,5 +39,6 @@ public class NotOrtalamasiHesaplayanPrgogram {
         String durum = sonuc>=60? "Sınıfı Geçti":"Sınıfta Kaldı";
         System.out.println(durum);
     
+        input.close();
     }
 }

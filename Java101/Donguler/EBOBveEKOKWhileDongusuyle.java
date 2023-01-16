@@ -27,5 +27,6 @@ public class EBOBveEKOKWhileDongusuyle {
             }
             i++;
         }
+        input.close();
     }
 }

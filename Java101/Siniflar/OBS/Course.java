@@ -13,8 +13,8 @@ public class Course {
         this.name = name;
         this.code = code;
         this.prefix= prefix ; 
-        int note = 0;
-        int verbalNote=0;
+   //     int note = 0;
+   //    int verbalNote=0;
 
     }
 

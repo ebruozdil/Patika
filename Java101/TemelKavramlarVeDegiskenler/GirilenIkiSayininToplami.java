@@ -16,5 +16,7 @@ public class GirilenIkiSayininToplami {
         System.out.println("B Sayısı : " + b);
         int i = a + b;
         System.out.println("Toplamları : "+  i);
+
+        input.close();
     }
 }

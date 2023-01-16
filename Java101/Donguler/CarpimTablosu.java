@@ -10,5 +10,6 @@ public class CarpimTablosu {
             int result = N * i;
             System.out.println(N+ " x "+i+" = "+result);
         }
+        scanner.close();
     }
 }

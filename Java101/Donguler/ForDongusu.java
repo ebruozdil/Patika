@@ -42,6 +42,7 @@ public class ForDongusu {
             System.out.print("Sayı Giriniz : ");
             sayi = input.nextInt();
         }while(sayi > 0);
-
+       
+        input.close();
     }
 }

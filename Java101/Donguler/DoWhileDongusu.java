@@ -42,5 +42,7 @@ public class DoWhileDongusu {
             age++;
         }while(age<20);
         System.out.println(age);
+        
+        input.close();
     }
 }

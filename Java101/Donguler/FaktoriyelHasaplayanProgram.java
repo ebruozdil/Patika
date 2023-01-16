@@ -15,5 +15,6 @@ public class FaktoriyelHasaplayanProgram {
             total = total*i;
         }
         System.out.println(n+" Faktöriyel = "+total);
+        scan.close();
     }
 }

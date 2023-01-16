@@ -24,5 +24,6 @@ public class HavaSicakliginaGoreEtkinlikOnerenProgram {
         } else if (heat > 25) {
             System.out.println("Yüzmeye gidebilirsiniz.");
         }
+        input.close();
     }
 }

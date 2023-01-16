@@ -9,14 +9,14 @@ public class VucutKitleIndeksiHesaplayanProgram {
         System.out.print("Lütfen boyunuzu (metre cinsinden) giriniz : ");
         boy= input.nextDouble();
 
-        Scanner input2 = new Scanner(System.in);
         System.out.print("Lütfen kilonuzu giriniz : ");
-        kilo= input2.nextDouble();
+        kilo= input.nextDouble();
 
         //Vücut Kitle İndeksi Hesaplama Formülü : Kilo (kg) / Boy(m) * Boy(m)
 
         indeks = kilo / (boy * boy) ;
         System.out.println("Vücut Kitle İndeksiniz : " + indeks);
 
+        input.close();
     }
 }

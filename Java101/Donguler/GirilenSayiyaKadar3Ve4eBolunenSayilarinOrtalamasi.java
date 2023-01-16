@@ -21,5 +21,6 @@ public class GirilenSayiyaKadar3Ve4eBolunenSayilarinOrtalamasi {
             }
         }
         System.out.println(k+"ya kadar olan sayılardan 3 e ve 4 e bölünen sayıların ortalaması: "+total/t);
+        input.close();
     }
 }

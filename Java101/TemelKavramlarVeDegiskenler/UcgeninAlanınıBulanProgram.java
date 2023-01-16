@@ -18,8 +18,9 @@ public class UcgeninAlanınıBulanProgram {
         alan=Math.sqrt(u*(u-a)*(u-b)*(u-c));
 
         System.out.println("Üçgenin Alanı = "+alan);
-    }
     
+        input.close();
+    }
 }
 /*Ödev
 Üç kenar uzunluğunu kullanıcıdan aldığınız üçgenin alanını hesaplayan programı yazınız.

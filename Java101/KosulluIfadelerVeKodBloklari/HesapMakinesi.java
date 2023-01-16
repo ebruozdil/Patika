@@ -31,5 +31,6 @@ public class HesapMakinesi {
     }else {
       System.out.println("Hatalı giriş yaptınız.Tekrar deneyin.");
     }
+    input.close();
     }
 }

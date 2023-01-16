@@ -37,6 +37,7 @@ public class KullaniciGirisi {
         }else{
             System.out.println("Bilgileriniz yanlış.Kullanıcı adınızı kontrol edip tekrar deneyiniz.");
         }
+        input.close();
      }
 }
-    
+

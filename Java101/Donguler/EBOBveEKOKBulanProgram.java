@@ -35,5 +35,6 @@ public class EBOBveEKOKBulanProgram {
 //formülden ekok :
 
         System.out.println((n1*n2) / ebob);
+        input.close();
     }
 }

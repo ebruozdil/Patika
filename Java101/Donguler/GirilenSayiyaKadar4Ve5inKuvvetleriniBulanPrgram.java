@@ -18,6 +18,7 @@ public class GirilenSayiyaKadar4Ve5inKuvvetleriniBulanPrgram {
         for (int i=1; i<=n ; i*=5){
             System.out.println(i);
         }
+        input.close();
     }
 }
 /*Ödev  Patika.dev

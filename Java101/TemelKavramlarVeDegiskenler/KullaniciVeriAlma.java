@@ -17,5 +17,7 @@ public class KullaniciVeriAlma {public static void main(String[] args) {
     System.out.println("Ad Soyad: " + adSoyad);
     System.out.println("Yaş : " + yas);
     System.out.println("Maaş : " + maas);
+
+    inp.close();
 }
 }

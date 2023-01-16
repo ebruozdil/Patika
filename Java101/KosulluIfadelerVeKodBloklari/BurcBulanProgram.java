@@ -142,5 +142,6 @@ public class BurcBulanProgram {
         }else{
             System.out.println("Burcunuz : "+burc);
         }
+        input.close();
     }
 }

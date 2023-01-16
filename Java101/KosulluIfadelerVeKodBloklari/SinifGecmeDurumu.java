@@ -36,6 +36,7 @@ public class SinifGecmeDurumu {
             System.out.println("Ortalamanız : "+avarage);
         }else{
             System.out.println("Notunuzu 0'la 100 arasında girmelisiniz.");
-        } 
+        }
+        input.close();
     }
 }

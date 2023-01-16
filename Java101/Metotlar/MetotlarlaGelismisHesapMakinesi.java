@@ -14,6 +14,7 @@ public class MetotlarlaGelismisHesapMakinesi {
             result += number;
         }
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void minus() {
@@ -31,6 +32,7 @@ public class MetotlarlaGelismisHesapMakinesi {
             result -= number;
         }
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void times() {
@@ -48,6 +50,7 @@ public class MetotlarlaGelismisHesapMakinesi {
             result *= number;
         }
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void divided() {
@@ -69,6 +72,7 @@ public class MetotlarlaGelismisHesapMakinesi {
             result /= number;
         }
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void power() {
@@ -81,7 +85,8 @@ public class MetotlarlaGelismisHesapMakinesi {
         for (int i = 1; i <= exponent; i++) {
             result *= base;
         }
-        System.out.println("Sonuç : " + result);        
+        System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void factorial() {
@@ -93,6 +98,7 @@ public class MetotlarlaGelismisHesapMakinesi {
             result *= i;
         }
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void mod() {
@@ -102,6 +108,7 @@ public class MetotlarlaGelismisHesapMakinesi {
         System.out.print("İkinci sayıyı giriniz :");
         int b = scan.nextInt();
         System.out.println("Mod İşlemi : "+(a % b));
+        scan.close();
     }
 
     static void calc(){
@@ -112,6 +119,7 @@ public class MetotlarlaGelismisHesapMakinesi {
         int b = scan.nextInt();
         System.out.println("Çevresi : " + (2 * (a+b)));
         System.out.println("Alanı : "+ (a*b));
+        scan.close();
     }
 
     public static void main(String[] args) {

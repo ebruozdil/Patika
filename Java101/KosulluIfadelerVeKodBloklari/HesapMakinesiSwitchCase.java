@@ -40,5 +40,6 @@ public class HesapMakinesiSwitchCase {
                 System.out.println("Hatalı giriş yaptınız. Tekrar deneyiniz.");
                 break;
         }
+        input.close();
     }
 }

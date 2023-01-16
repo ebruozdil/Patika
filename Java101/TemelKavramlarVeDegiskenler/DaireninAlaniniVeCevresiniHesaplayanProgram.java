@@ -15,16 +15,16 @@ public class DaireninAlaniniVeCevresiniHesaplayanProgram {
 
 
     //ödev kısmı
-    Scanner input2 = new Scanner(System.in);
     System.out.print("Dairenin dilim açısını giriniz : ");
-    a=input2.nextInt();
+    a=input.nextInt();
     alan2= (pi * (r*r) * a) / 360 ;
 
     System.out.println("Dairenin çevresi = "+cevre);
     System.out.println("Dairenin alanı = "+alan);
     System.out.println("Dairenin merkez açısıyla bulunan dilim alanı = "+alan2);
+   
+    input.close();
    }
-    
 }
 
 
