@@ -9,16 +9,19 @@ Patika Profilim : [ebruzdil](https://app.patika.dev/ebruzdil)  😊✨
 
 HTML eğitiminde öğrendiğimiz bilgileri bu repo da uyguladık. Kodların görüntüsü aşağıdaki gibidir.
 
-[index.html](index.html) (Anasayfa) ;
+[index.html](index.html) (Anasayfa) ; 
+
 ![Anasayfa görüntüsü 1](images/a1.png) 
 ![Anasayfa görüntüsü 2](images/a2.png)
 
 ---
 
 [about-us.html](about-us.html) (Hakkımızda) ;
+
 ![Hakkımızda ekranı](images/hakkimizda.png)
 
 ---
 
 [contact.html](contact.html) (İletişim);
+
 ![İletişim ekranı](images/iletisim.png)
